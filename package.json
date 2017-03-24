@@ -8,7 +8,7 @@
     "url": "git+https://github.com/benmcosker/es6-exercise.git"
   },
   "scripts": {
-    "dev": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js --inline"
+    "dev": "webpack-dev-server --inline"
   },
   "keywords": [
     "es6",
