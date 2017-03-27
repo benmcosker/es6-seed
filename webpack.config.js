@@ -17,6 +17,11 @@ module.exports = {
     filename: "app.js",
     path: __dirname + "/dest"
   },
+  devServer: {
+    contentBase: '/dest',
+    inline: true,
+    open: true
+  },
   module: {
     loaders: [
       {
